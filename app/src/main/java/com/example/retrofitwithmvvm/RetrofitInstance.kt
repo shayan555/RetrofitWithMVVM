@@ -9,10 +9,8 @@ import java.util.concurrent.TimeUnit
 
 class RetrofitInstance
 {
-
-
-    companion object{
-
+    companion object
+    {
         val BASE_URL = "https://jsonplaceholder.typicode.com/"
 
         val interceptor = HttpLoggingInterceptor().apply {
